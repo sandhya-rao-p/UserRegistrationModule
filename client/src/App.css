@@ -1,0 +1,98 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}
+nav {
+background-color: #cfe3ea; /* This is a light blue color */
+padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+form {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #5c6bc0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3949ab;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+
+.auth-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #5c6bc0; /* Adjust color as needed */
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.btn-signup {
+  background-color: #5cb85c; /* Green for sign up */
+}
+
+.btn-login {
+  background-color: #5bc0de; /* Light blue for login */
+}
+
+.btn:hover {
+  filter: brightness(90%);
+}
